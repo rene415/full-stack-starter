@@ -12,6 +12,7 @@ import Home from './Home';
 import Login from './Login';
 import Passwords from './Passwords';
 import Register from './Register';
+import EggTimer from './EggTimer';
 import SectionItems from './SectionItems';
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route>
+            <EggTimer/>
           </Route>
           <Route path="/login">
             <Login />

@@ -4,7 +4,7 @@ import me from './me.jpg';
 function AboutMe() {
   return (
     <div id="about-me">
-      <img className="img-fluid mb-3" src={me} alt="My Name" />
+      <img className="img-fluid mb-3" src={me} alt="Rene Ramirez" />
       <h1>Rene Ramirez</h1>
       <p>Meet Rene Ramirez, he is currently the Community Outreach Coordinator at 42 Silicon Valley. <br />
         Rene Ramirez joined 42 Silicon Valley (42) in 2016 as a student, over the last 4 years he volunteered and transitioned into the position he is in now.

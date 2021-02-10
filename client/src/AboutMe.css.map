@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,SADO,CACP,GAAG,CAAC;EACF,aAAa,EAAE,GAAG;CACnB;;AAHH,AAKE,SALO,CAKP,EAAE,CAAC;EACD,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,IAAI;CACpB",
+    "sources": [
+        "AboutMe.scss"
+    ],
+    "names": [],
+    "file": "AboutMe.css"
+}
