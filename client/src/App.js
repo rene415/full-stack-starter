@@ -14,6 +14,7 @@ import Passwords from './Passwords';
 import Register from './Register';
 import EggTimer from './EggTimer';
 import SectionItems from './SectionItems';
+import Sections from './Sections/Sections';
 
 function App() {
   return (
@@ -24,9 +25,9 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route>
+          {/* <Route>
             <EggTimer/>
-          </Route>
+          </Route> */}
           <Route path="/login">
             <Login />
           </Route>
@@ -38,6 +39,9 @@ function App() {
               <Register />
             </Route>
           )}
+          <Route path="/sections">
+            <Sections />
+          </Route>
           <AuthProtectedRoute path="/sectionItems">
             <SectionItems />
           </AuthProtectedRoute>
