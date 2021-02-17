@@ -1,7 +1,8 @@
 import { Route, Switch, useRouteMatch } from "react-router-dom";
 import SectionItems from "../SectionItems";
+import SectionItemForm from "../SectionItems/SectionItemForm";
 import SectionsList from './SectionsList';
-import SectionsNew from './SectionsNew';
+import SectionForm from './SectionForm';
 
 function Sections(){
     const {path} = useRouteMatch();
@@ -11,7 +12,7 @@ function Sections(){
                 <SectionsList />
             </Route>
             <Route path={`${path}/new`}>
-
+                <SectionForm />
             </Route>
         </Switch>
     );
